@@ -9,9 +9,9 @@ int main() {
   scanf("%d", &input);
   
   if (input == rn) {
-    printf("You guessed the number");
+    printf("You guessed correctly!");
   } else {
-    printf("You didn't guess the number correctly");
+    printf("You guessed incorrectly.");
   }
 
   return 0;
